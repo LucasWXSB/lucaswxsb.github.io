@@ -1,0 +1,43 @@
+.box {
+    width: 451px;
+    height: 58px;
+    border: 3px solid rgb(162, 162, 162);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 20px;
+    left: calc((100vw - 450px) / 2);
+    border-radius: 5px;
+}
+
+.goods {
+    width: 60px;
+    height: 58px;
+    position: absolute;
+    border: 3px solid rgb(195, 195, 195);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.disorganize,
+.selectLevel,
+.reset {
+    bottom: 40px !important;
+}
+
+/* .btn {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 98, 25);
+    border: none;
+    color: white;
+    position: fixed;
+    cursor: pointer;
+}
+
+.disorganize {
+    bottom: 30px;
+    left: 50px;
+} */
